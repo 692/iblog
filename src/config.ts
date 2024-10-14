@@ -1,10 +1,10 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://mliu.me/",
-  author: "Martin Liu",
-  desc: "Martin Liu's blog.",
-  title: "Martin Liu",
+  website: "https://692.github.io/iblog",
+  author: "MGT blog",
+  desc: "MGT blog.",
+  title: "MGT Blog",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 6,
@@ -22,7 +22,7 @@ export const LOGO_IMAGE = {
 export const SOCIALS: SocialObjects = [
   {
     name: "Github",
-    href: "https://github.com/martin-liu",
+    href: "https://github.com/692",
     linkTitle: ` ${SITE.title} on Github`,
     active: true,
   },
